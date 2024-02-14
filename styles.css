@@ -1,6 +1,6 @@
 * {
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 300;
     box-sizing: border-box;
     margin: 0px;
 }
@@ -43,10 +43,32 @@ nav{
     background-color: #1f2937;
     height: 100%;
     padding: 80px 15% 80px 15%;
+    gap: 50px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .hero h1{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
+}
+
+.hero a{
+    background-color: #3882f6;
+    text-decoration: none;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 10px  30px 10px 30px;
+    background: #3882f6;
+    width: max-content;
+    max-width: 100%;
+    color: #f9faf8;
+    font-weight: 600;
 }
