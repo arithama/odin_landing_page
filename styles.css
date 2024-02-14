@@ -40,6 +40,8 @@ nav{
 
 .hero{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     height: 100%;
     padding: 80px 15% 80px 15%;
