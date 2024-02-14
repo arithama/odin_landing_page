@@ -136,3 +136,42 @@ nav{
     font-weight: 500;
     align-self: flex-end;
 }
+
+.action{
+    display: flex;
+    border-radius: 25px;
+    margin: 150px 200px 150px 200px;
+    padding: 80px 150px 80px 150px;
+    background: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action h2{
+    color:#f9faf8;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.action p{
+    color:#f9faf8;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-action{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    width: max-content;
+    max-width: 100%;
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 20px;
+    border: 3px solid #f9faf8;
+}
